@@ -23,15 +23,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-        main.cpp \
-    Paddle.cpp \
-    Ball.cpp \
-    Block.cpp
+        src/main.cpp \
+    src/Paddle.cpp \
+    src/Ball.cpp \
+    src/Block.cpp
 
 HEADERS += \
-    Paddle.h \
-    Ball.h \
-    Block.h
+    inc/Paddle.h \
+    inc/Ball.h \
+    inc/Block.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
