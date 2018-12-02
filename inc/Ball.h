@@ -3,7 +3,7 @@
 
 #include <QGraphicsRectItem>
 #include <QObject>
-#include "Paddle.h"
+#include "inc/Paddle.h"
 
 class Ball: public QObject, public QGraphicsRectItem{
     Q_OBJECT
