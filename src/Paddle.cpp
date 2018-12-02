@@ -1,4 +1,4 @@
-#include <Paddle.h>
+#include <inc/Paddle.h>
 #include <QKeyEvent>
 
 void Paddle::keyPressEvent(QKeyEvent * event){
