@@ -4,9 +4,9 @@
 #include <QGraphicsView>
 #include <QGraphicsItem>
 #include <QLabel>
-#include "Paddle.h"
-#include "Ball.h"
-#include "Block.h"
+#include "inc/Paddle.h"
+#include "inc/Ball.h"
+#include "inc/Block.h"
 
 int main(int argc, char *argv[])
 {
