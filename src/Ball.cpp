@@ -1,6 +1,6 @@
-#include "Ball.h"
-#include "Block.h"
-#include "Paddle.h"
+#include "inc/Ball.h"
+#include "inc/Block.h"
+#include "inc/Paddle.h"
 #include <QTimer>
 #include <QDebug>
 #include <QKeyEvent>
